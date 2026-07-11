@@ -2,6 +2,15 @@
 =============================================================================
 Stored Procedure: load bronze layer (Source -> Bronze)
 =============================================================================
+
+This project was developed and executed in a local SQL Server environment. The 
+BULK INSERT statements in scripts/bronze/proc_load_bronze.sql use absolute file 
+paths that point to the local datasets directory.
+
+Before running the Bronze loading procedure, update each file path so that it 
+matches the location of the project on your computer. The SQL Server service 
+account must also have permission to read the selected directory.
+
 Script Prupose:
   This stored procedure loads data into the 'bronze' schema external CSV files
   It performs the following actions:
