@@ -47,14 +47,6 @@ The source data comes from two systems:
 - **CRM:** customers, products, and sales
 - **ERP:** customer details, customer locations, and product categories
 
-## ETL Concepts
-
-The following diagram summarizes common extraction, transformation, and loading concepts. This project uses only part of these techniques, mainly file parsing, batch processing, full loads, data cleaning, standardization, integration, and business rules.
-
-<p align="center">
-  <img src="docs/ETL.png" alt="ETL concepts" width="100%">
-</p>
-
 ## Data Flow
 
 <p align="center">
