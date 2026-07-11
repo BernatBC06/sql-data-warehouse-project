@@ -8,6 +8,14 @@ The project demonstrates a complete data engineering workflow using T-SQL: sourc
   <img src="docs/data_architecture.png" alt="SQL Data Warehouse Architecture" width="100%">
 </p>
 
+## Learning Context and Attribution
+
+This repository was developed as a hands-on educational project by following the Udemy course [**Building a Modern Data Warehouse - Data Engineering Bootcamp**](https://www.udemy.com/course/building-a-modern-data-warehouse-data-engineering-bootcamp/), created by **Baraa Khatib Salkini**.
+
+The project architecture, source datasets, Bronze-Silver-Gold workflow, and general implementation approach are based on the course project. The SQL scripts were executed, reviewed, documented, and adapted as part of my own learning process to strengthen my practical understanding of SQL Server, ETL pipelines, data cleansing, data integration, dimensional modeling, and data-quality validation.
+
+This repository is intended for educational and portfolio purposes. Credit for the original course structure and learning materials belongs to the course instructor.
+
 ## Project Overview
 
 The warehouse processes six CSV files from two operational source systems:
